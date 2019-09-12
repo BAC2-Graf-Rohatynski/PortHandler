@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PortHandler" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9f85c0f-a435-4400-beea-d2b36e5bab1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ApiBuilder.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ApiBuilder.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/EnumStorage.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/EnumStorage.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/PropertyStorage.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/PropertyStorage.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IPortHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IPortThread.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/json/Json.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/json/interfaces/IJson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/sender/NlcSender.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/sender/NlcSender.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocketHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocketHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocketHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocketHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/porthandler/storage/LicenseStorage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/porthandler/storage/LicenseStorage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/update.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/update.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PortHandler" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PortHandler" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PortHandler" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PortHandler" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocket.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/sender/NlcSender.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocketHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <element signature="e#28#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</find>
+      <find>=======</find>
+      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt; origin/develop</find>
+      <find>send.</find>
+      <find>port.</find>
+      <find>port.co</find>
+      <find>watchdog</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/DatabaseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/socket/SocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/socket/ClientHandler.kt" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/license.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/interface.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/socket.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/port.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/encryption/Encryption.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/Interface.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/InterfaceProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/IInterfaceProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/PortProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/IPortProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/sender/interfaces/INlcSender.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/licensehandler/License.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/License.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/license/license.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/LicenseProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/ILicenseProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/PortsProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/IPortsProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/licensehandler/LicenseSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/licensehandler/interfaces/ILicenseSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/licensehandler/LicenseSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/ports/port.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/watchdog/watchdog.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/IWatchdogProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/properties/WatchdogProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/json/interfaces/IJson.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/update.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/UpdateInformation.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/PortHandlerRunner.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/json/Json.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/storage/LicenseStorage.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetThread.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortThread.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetThread.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortThread.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IPortHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/porthandler/sender/NlcSender.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+              <item name="artnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+              <item name="artnet" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+              <item name="comport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+              <item name="comport" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="porthandler" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortHandler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortHandler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565195881246" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="porthandler.properties" />
+      <recent name="licensemanager.database" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\PortHandler\libs" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\PortHandler\src\main\resources" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\PortHandler\src\main\kotlin\porthandler" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="porthandler" />
+      <recent name="porthandler.properties.interfaces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\PortHandler\src\main\resources\ports" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\PortHandler\src\main\resources\license" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\PortHandler\src\main\resources\interface" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="porthandler.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="PortHandler_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="porthandler.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.porthandler.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9f85c0f-a435-4400-beea-d2b36e5bab1c" name="Default Changelist" comment="" />
+      <created>1549491038156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549491038156</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Refactoring&#10;Force over GIT!">
+      <created>1560375026931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560375026931</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactoring">
+      <created>1560533343561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560533343561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Runner added">
+      <created>1560720846834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560720846834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactoring">
+      <created>1560980643865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560980643865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactoring finished">
+      <created>1561486241293</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561486241293</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bugfixing">
+      <created>1561491144476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561491144476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JavaDoc Bugfixing">
+      <created>1549908266084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549908266084</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- JavaDoc added&#10;- Bug fixing&#10;- Server socket communication encrypted with salt&#10;- Server socket communication with JSON now">
+      <created>1549922923968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549922923970</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Javadoc changed">
+      <created>1549924071475</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549924071475</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactoring (still in progress)">
+      <created>1551820497872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551820497872</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Code Refactoring">
+      <created>1551904000790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551904000790</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Code Refactoring">
+      <created>1551904132318</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1551904132318</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Init Commit for Develop branch">
+      <created>1551906145360</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1551906145360</updated>
+    </task>
+    <task id="LOCAL-00014" summary="jssc framework for serial com port communication added">
+      <created>1551915773968</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1551915773968</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refactoring">
+      <created>1552077048343</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552077048343</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Bugfixing">
+      <created>1552662621158</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552662621158</updated>
+    </task>
+    <task id="LOCAL-00017" summary="RSA encryption module added">
+      <created>1552850030055</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552850030055</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Error handler enabled">
+      <created>1552850659016</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552850659016</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Refactored">
+      <created>1560373810171</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1560373810171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3109426" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32944915" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.35287845" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30415756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286334" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3231106" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32944915" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.5743983" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactoring&#10;Force over GIT!" />
+    <MESSAGE value="Runner added" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Refactoring finished" />
+    <MESSAGE value="Bugfixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfixing" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/IPortsProperties.kt" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+          <folding>
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/properties/Port.kt" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/sender/interfaces/INlcSender.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/properties/PortsProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ports/port.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/watchdog/watchdog.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/properties/interfaces/IWatchdogProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/properties/WatchdogProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/properties/InterfaceProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/PortHandlerRunner.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#21#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/PropertyStorage.jar!/propertystorage/UpdateInformation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/UpdateInformation.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/update.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/json/interfaces/IJson.kt" />
+    <entry file="jar://$PROJECT_DIR$/libs/ApiBuilder.jar!/apibuilder/license/response/ResponseItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/socket/interfaces/ILicenseSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scream3r/jssc/2.8.0/7e8d93052a8743a7937a6d46854057ac1ce876c1/jssc-2.8.0.jar!/jssc/SerialPortList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/artnet4j.jar!/ch/bildspur/artnet/ArtNetClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="e#28#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#39#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/storage/LicenseStorage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/EnumStorage.jar!/enumstorage/port/SerialPorts.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/json/Json.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IPortThread.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IPortHandler.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/interfaces/IArtnetHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/comport/interfaces/IComPortThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#40#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="e#29#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/comport/ComPortThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/sender/NlcSender.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/socket/LicenseSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/porthandler/artnet/ArtnetHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="e#28#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>PortHandler</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PortHandler</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: :artnet4j:</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
